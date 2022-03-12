@@ -111,11 +111,13 @@
                 android:hint="DOĞRU"
                 tools:ignore="TouchTargetSizeCheck"
                 android:id="@+id/editText"/>
+
         <EditText
-                android:layout_height="match_parent"
-                android:inputType="textPersonName"
-                android:id="@+id/editTextTextPersonName14"
-                android:hint="YANLIŞ"/>
+            android:id="@+id/editTextTextPersonName14"
+            android:layout_height="match_parent"
+            android:hint="YANLIŞ"
+            android:inputType="textPersonName"
+            tools:ignore="TouchTargetSizeCheck" />
         <TextView
                 android:layout_height="match_parent"
                 android:id="@+id/textViewNet1"
