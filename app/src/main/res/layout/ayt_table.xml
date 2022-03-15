@@ -1,49 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TableLayout android:layout_width="match_parent"
-             android:layout_height="match_parent"
-             android:stretchColumns="0,1,2,3"
-             xmlns:tools="http://schemas.android.com/tools"
-             xmlns:android="http://schemas.android.com/apk/res/android">
+<TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="0,1,2,3"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        >
     <TableRow>
         <TextView
-                android:text="TÜRKÇE"
+                android:text="EDEBİYAT-SOS.-1"
                 android:background="@drawable/txblock"
                 android:layout_height="match_parent"
                 android:layout_width="match_parent"
-                android:id="@+id/textView9"
+                android:id="@+id/tr"
                 android:layout_marginVertical="1dp"
-                android:fontFamily="sans-serif-black"
-                android:textStyle="bold"
-                android:textAlignment="center"
-                android:gravity="center"
-        />
-        <EditText
-                android:layout_height="match_parent"
-                android:inputType="number|textPersonName"
-                android:id="@+id/editTextTextPersonName10"
-                android:hint="DOĞRU"
-                tools:ignore="TouchTargetSizeCheck"/>
-        <EditText
-                android:layout_height="match_parent"
-                android:inputType="number|textPersonName"
-                android:id="@+id/editTextTextPersonName15"
-                android:hint="YANLIŞ"
-                tools:ignore="TouchTargetSizeCheck"/>
-        <TextView
-                android:layout_height="match_parent"
-                android:id="@+id/textViewNet3"
-                android:fontFamily="sans-serif-black"
-                android:gravity="center_vertical"
-                android:text="NET" android:layout_width="wrap_content"/>
-    </TableRow>
-    <TableRow>
-        <TextView
-                android:text="SOSYAL BİLGİLER"
-                android:layout_marginVertical="1dp"
-                android:background="@drawable/txblock"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:id="@+id/textView10"
                 android:fontFamily="sans-serif-black"
                 android:textStyle="bold"
                 android:textAlignment="center"
@@ -51,18 +21,49 @@
         <EditText
                 android:layout_height="match_parent"
                 android:inputType="number|textPersonName"
-                android:id="@+id/editTextTextPersonName12"
+                android:id="@+id/tred"
                 android:hint="DOĞRU"
                 tools:ignore="TouchTargetSizeCheck"/>
         <EditText
                 android:layout_height="match_parent"
                 android:inputType="number|textPersonName"
-                android:id="@+id/editTextTextPersonName13"
+                android:id="@+id/tred1"
                 android:hint="YANLIŞ"
                 tools:ignore="TouchTargetSizeCheck"/>
         <TextView
                 android:layout_height="match_parent"
-                android:id="@+id/textViewNet2"
+                android:id="@+id/trtx"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center_vertical"
+                android:text="NET" android:layout_width="wrap_content"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+                android:text="SOSYAL BİL.-2"
+                android:layout_marginVertical="1dp"
+                android:background="@drawable/txblock"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/sos"
+                android:fontFamily="sans-serif-black"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:gravity="center"/>
+        <EditText
+                android:layout_height="match_parent"
+                android:inputType="number|textPersonName"
+                android:id="@+id/sosed"
+                android:hint="DOĞRU"
+                tools:ignore="TouchTargetSizeCheck"/>
+        <EditText
+                android:layout_height="match_parent"
+                android:inputType="number|textPersonName"
+                android:id="@+id/sosed1"
+                android:hint="YANLIŞ"
+                tools:ignore="TouchTargetSizeCheck"/>
+        <TextView
+                android:layout_height="match_parent"
+                android:id="@+id/sostx"
                 android:fontFamily="sans-serif-black"
                 android:gravity="center_vertical"
                 android:text="NET" android:layout_width="wrap_content"/>
@@ -73,7 +74,7 @@
                 android:layout_marginVertical="1dp"
                 android:background="@drawable/txblock"
                 android:layout_height="match_parent"
-                android:id="@+id/textView8"
+                android:id="@+id/mat"
                 android:fontFamily="sans-serif-black"
                 android:textStyle="bold"
                 android:textAlignment="center"
@@ -81,18 +82,18 @@
         <EditText
                 android:layout_height="match_parent"
                 android:inputType="number|textPersonName"
-                android:id="@+id/editTextTextPersonName11"
+                android:id="@+id/mated"
                 android:hint="DOĞRU"
                 tools:ignore="TouchTargetSizeCheck"/>
         <EditText
                 android:layout_height="match_parent"
                 android:inputType="number|textPersonName"
-                android:id="@+id/editTextTextPersonName16"
+                android:id="@+id/mated1"
                 android:hint="YANLIŞ"
                 tools:ignore="TouchTargetSizeCheck"/>
         <TextView
                 android:layout_height="match_parent"
-                android:id="@+id/textViewNet"
+                android:id="@+id/mattx"
                 android:fontFamily="sans-serif-black"
                 android:gravity="center_vertical"
                 android:text="NET" android:layout_width="wrap_content"/>
@@ -103,7 +104,7 @@
                 android:layout_marginVertical="1dp"
                 android:background="@drawable/txblock"
                 android:layout_height="match_parent"
-                android:id="@+id/textView11"
+                android:id="@+id/fen"
                 android:ellipsize="end"
                 android:fontFamily="sans-serif-black"
                 android:textStyle="bold"
@@ -114,17 +115,17 @@
                 android:inputType="number|textPersonName"
                 android:hint="DOĞRU"
                 tools:ignore="TouchTargetSizeCheck"
-                android:id="@+id/editText"/>
+                android:id="@+id/fened"/>
 
         <EditText
-                android:id="@+id/editTextTextPersonName14"
+                android:id="@+id/fened1"
                 android:layout_height="match_parent"
                 android:hint="YANLIŞ"
                 android:inputType="number|textPersonName"
                 tools:ignore="TouchTargetSizeCheck"/>
         <TextView
                 android:layout_height="match_parent"
-                android:id="@+id/textViewNet1"
+                android:id="@+id/fentx"
                 android:fontFamily="sans-serif-black"
                 android:gravity="center_vertical"
                 android:text="NET"/>

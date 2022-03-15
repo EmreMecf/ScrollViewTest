@@ -7,10 +7,26 @@
         <entry key="..\:/Users/Nurullah/IntelliJIDEAProjects/ScrollViewTest/app/src/main/res/layout/activity_main.xml" value="0.7687074829931972" />
         <entry key="..\:/Users/Nurullah/IntelliJIDEAProjects/ScrollViewTest/app/src/main/res/layout/tyt_table.xml" value="0.55" />
         <entry key="..\:/Users/Nurullah/IntelliJIDEAProjects/ScrollViewTest/app/src/main/res/layout/yks_tablo.xml" value="0.5489583333333333" />
+        <entry key="app/src/main/res/drawable-v24/tyt_block.xml" value="0.2390625" />
+        <entry key="app/src/main/res/drawable/ic_baseline_alarm_24.xml" value="0.2390625" />
+        <entry key="app/src/main/res/drawable/ic_timer.xml" value="0.2390625" />
         <entry key="app/src/main/res/drawable/tx.xml" value="0.23802083333333332" />
         <entry key="app/src/main/res/drawable/txblock.xml" value="0.23802083333333332" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.375" />
+        <entry key="app/src/main/res/drawable/txblock1.xml" value="0.2444104145219888" />
+        <entry key="app/src/main/res/drawable/txtimer.xml" value="0.23802083333333332" />
+        <entry key="app/src/main/res/drawable/yks_block.xml" value="0.21481481481481482" />
+        <entry key="app/src/main/res/layout/AYT_table.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/ayt_table.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/ayt_table2.xml" value="0.22291666666666668" />
+        <entry key="app/src/main/res/layout/dil_table.xml" value="0.221875" />
+        <entry key="app/src/main/res/layout/dil_table2.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/dıl_table2.xml" value="0.22291666666666668" />
+        <entry key="app/src/main/res/layout/timer.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/timer2.xml" value="0.335" />
         <entry key="app/src/main/res/layout/tyt_table.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/tyt_table2.xml" value="0.221875" />
+        <entry key="app/src/main/res/layout/yks_tablo.xml" value="0.22291666666666668" />
       </map>
     </option>
   </component>
@@ -19,5 +35,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.16066481994459833" />
+      </ProjectState>
+    </option>
   </component>
 </project>

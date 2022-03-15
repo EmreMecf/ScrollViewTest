@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="0,1,2,3"
+        xmlns:tools="http://schemas.android.com/tools">
+    <TableRow>
+
+
+        <TextView
+                android:text="     YABANCI DİL    "
+                android:background="@drawable/txblock"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:id="@+id/tr"
+                android:layout_marginVertical="1dp"
+                android:fontFamily="sans-serif-black"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:gravity="center"/>
+        <EditText
+                android:layout_height="match_parent"
+                android:inputType="number|textPersonName"
+                android:id="@+id/tred"
+                android:hint="DOĞRU"
+                tools:ignore="TouchTargetSizeCheck"/>
+        <EditText
+                android:layout_height="match_parent"
+                android:inputType="number|textPersonName"
+                android:id="@+id/tred1"
+                android:hint="YANLIŞ"
+                tools:ignore="TouchTargetSizeCheck"/>
+    <TextView
+            android:layout_height="match_parent"
+            android:id="@+id/trtx"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center_vertical"
+            android:text="NET" android:layout_width="wrap_content"/>
+
+    </TableRow>
+
+
+
+</TableLayout>
